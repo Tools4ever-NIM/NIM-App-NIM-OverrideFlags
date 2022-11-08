@@ -1,0 +1,198 @@
+{
+  "filter_name": "APP_Override_Users",
+  "filter_items": [
+    {
+      "system_name": "internal",
+      "col_name": "OverrideFlags",
+      "colrefname": "OverrideFlags",
+      "type": "start",
+      "indent": 0,
+      "enabled": true,
+      "index": 0,
+      "child_count": 1
+    },
+    {
+      "ref_type": "n-n",
+      "system_name_n": "EmployeeCSV",
+      "col_name_n": "Employee",
+      "system_name_link": "intersystem",
+      "col_name_link": "intercol",
+      "field_link_m": "ID",
+      "field_link_n": "EMPLOYEE",
+      "option": "any-none",
+      "colrefname": "Employee",
+      "recursive": false,
+      "type": "reference",
+      "indent": 1,
+      "enabled": true,
+      "index": 1,
+      "parent": 0,
+      "child_count": 0
+    }
+  ],
+  "filter_columns": [
+    {
+      "id": "OverrideFlags.ID",
+      "order": 1,
+      "name": "OverrideFlags.ID",
+      "display_name": "ID",
+      "show": true,
+      "field_name": "ID",
+      "colrefname": "OverrideFlags",
+      "source": "data"
+    },
+    {
+      "id": "OverrideFlags.Type",
+      "order": 2,
+      "name": "OverrideFlags.Type",
+      "display_name": "Type",
+      "show": true,
+      "field_name": "Type",
+      "colrefname": "OverrideFlags",
+      "source": "data"
+    },
+    {
+      "id": "OverrideFlags.Global",
+      "order": 3,
+      "name": "OverrideFlags.Global",
+      "display_name": "Global",
+      "show": true,
+      "field_name": "Global",
+      "colrefname": "OverrideFlags",
+      "source": "data"
+    },
+    {
+      "id": "OverrideFlags.NameChange",
+      "order": 4,
+      "name": "OverrideFlags.NameChange",
+      "display_name": "NameChange",
+      "show": true,
+      "field_name": "NameChange",
+      "colrefname": "OverrideFlags",
+      "source": "data"
+    },
+    {
+      "id": "OverrideFlags.Update",
+      "order": 5,
+      "name": "OverrideFlags.Update",
+      "display_name": "Update",
+      "show": true,
+      "field_name": "Update",
+      "colrefname": "OverrideFlags",
+      "source": "data"
+    },
+    {
+      "id": "OverrideFlags.Disable",
+      "order": 6,
+      "name": "OverrideFlags.Disable",
+      "display_name": "Disable",
+      "show": true,
+      "field_name": "Disable",
+      "colrefname": "OverrideFlags",
+      "source": "data"
+    },
+    {
+      "id": "OverrideFlags.Delete",
+      "order": 7,
+      "name": "OverrideFlags.Delete",
+      "display_name": "Delete",
+      "show": true,
+      "field_name": "Delete",
+      "colrefname": "OverrideFlags",
+      "source": "data"
+    },
+    {
+      "id": "OverrideFlags.Enable",
+      "order": 8,
+      "name": "OverrideFlags.Enable",
+      "display_name": "Enable",
+      "show": true,
+      "field_name": "Enable",
+      "colrefname": "OverrideFlags",
+      "source": "data"
+    },
+    {
+      "id": "Employee.EMPLOYEE",
+      "order": 9,
+      "name": "Employee.EMPLOYEE",
+      "display_name": "EMPLOYEE",
+      "show": true,
+      "field_name": "EMPLOYEE",
+      "colrefname": "Employee",
+      "source": "data"
+    },
+    {
+      "id": "Employee.DEPARTMENT",
+      "order": 10,
+      "name": "Employee.DEPARTMENT",
+      "display_name": "DEPARTMENT",
+      "show": true,
+      "field_name": "DEPARTMENT",
+      "colrefname": "Employee",
+      "source": "data"
+    },
+    {
+      "id": "Employee.FIRST_NAME",
+      "order": 11,
+      "name": "Employee.FIRST_NAME",
+      "display_name": "FIRST_NAME",
+      "show": true,
+      "field_name": "FIRST_NAME",
+      "colrefname": "Employee",
+      "source": "data"
+    },
+    {
+      "id": "Employee.LAST_NAME",
+      "order": 12,
+      "name": "Employee.LAST_NAME",
+      "display_name": "LAST_NAME",
+      "show": true,
+      "field_name": "LAST_NAME",
+      "colrefname": "Employee",
+      "source": "data"
+    },
+    {
+      "id": "Employee.PREFERRED_NAME",
+      "order": 13,
+      "name": "Employee.PREFERRED_NAME",
+      "display_name": "PREFERRED_NAME",
+      "show": true,
+      "field_name": "PREFERRED_NAME",
+      "colrefname": "Employee",
+      "source": "data"
+    },
+    {
+      "id": "Employee.calc_FirstName_TitleCase",
+      "order": 14,
+      "name": "Employee.calc_FirstName_TitleCase",
+      "display_name": "calc_FirstName_TitleCase",
+      "show": true,
+      "field_name": "calc_FirstName_TitleCase",
+      "colrefname": "Employee",
+      "source": "data"
+    },
+    {
+      "id": "Employee.calc_LastName_TitleCase",
+      "order": 15,
+      "name": "Employee.calc_LastName_TitleCase",
+      "display_name": "calc_LastName_TitleCase",
+      "show": true,
+      "field_name": "calc_LastName_TitleCase",
+      "colrefname": "Employee",
+      "source": "data"
+    }
+  ],
+  "sort_columns": [],
+  "group": {
+    "enabled": false,
+    "count": 1,
+    "field": ""
+  },
+  "params": [],
+  "appends": [],
+  "exclude": {
+    "enabled": false,
+    "field_name": ""
+  },
+  "lookups": []
+}
