@@ -4,18 +4,30 @@ NIM App - Override Flag Management
 # Description
 This is an NIM App that provides the ability to manage flags for overriding processing of users. (e.g Skip flags)
 
+# Requirements
+- Configure Lookup table
+    - Create "OverrideFlags" using provided "LookupTable_OverrideFlags.csv"
+	- Add Table to Internal Users
+	- Create Inter-System relation
+		- System A
+			- System: internal
+			- Table: OverrideFlags
+			- Column: ID
+		- System B
+			- System: AD
+			- Table: Users
+			- Column: employeeID
+
 # Configuration
 A lookup table is required with the following columns
 - ID
 - Type
 - Global
-- NameChange
 - Update
 - Disable
 - Delete 
 - Enable
-
-![image](https://user-images.githubusercontent.com/24281600/200624577-5ba613c9-a201-4df2-821b-9401bd50c313.png)
+- NameChange
 
 
 # Screenshots
@@ -25,5 +37,6 @@ A lookup table is required with the following columns
 
 ![image](https://user-images.githubusercontent.com/24281600/200624151-29431b65-ca75-4e4c-bb77-33c82325d767.png)
 
-# NIM Docs
+
+# NIM Documentation
 The official NIM documentation can be found at: https://docs.nimsuite.com
