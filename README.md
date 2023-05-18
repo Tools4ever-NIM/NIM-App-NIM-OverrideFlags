@@ -7,6 +7,7 @@ This is an NIM App that provides the ability to manage flags for overriding proc
 # Requirements
 - Configure Lookup table
     - Create "OverrideFlags" using provided ["LookupTable_OverrideFlags.csv"](LookupTable_OverrideFlags.csv)
+        - Change the Type from "string" to "boolean" for all flags	
 	- Add Table to Internal System
 	- Create Inter-System relation
 		- System A
