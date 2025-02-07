@@ -32,10 +32,8 @@ A lookup table is required with the following columns
 
 
 # Screenshots
-![image](https://user-images.githubusercontent.com/24281600/233438244-0985545a-484e-4ebc-9aab-02c5778db462.png)
+![image](https://github.com/user-attachments/assets/1392f98a-83be-457f-a77e-d22dc99fd7da)
 
-
-![image](https://user-images.githubusercontent.com/24281600/233438269-b07321bb-8a0f-4dd4-a16d-3e00e0d0223e.png)
 
 
 
