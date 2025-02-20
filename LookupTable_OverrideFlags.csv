@@ -1,2 +1,2 @@
-"ID","Type","Global","Create","Update","Disable","Enable","Delete","Groups","NameChange","OUChange","ExpireDate","Note"
-"XXXX","Test","true","false","false","false","false","false","false","false","false","","This is my test user"
+"Key","ID","Type","Global","Create","Update","Disable","Enable","Delete","Groups","NameChange","OUChange","ExpireDate","Note"
+"9ee9f52e-22b2-4279-8142-a379e9414746","XXXX","Test","true","false","false","false","false","false","false","false","false","","This is my test user"

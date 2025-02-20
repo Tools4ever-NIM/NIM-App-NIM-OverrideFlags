@@ -9,6 +9,7 @@ This is an NIM App that provides the ability to manage flags for overriding proc
     - Create "OverrideFlags" using provided ["LookupTable_OverrideFlags.csv"](LookupTable_OverrideFlags.csv)
         - Change the Type from "string" to "boolean" for all flags	
 	- Add Table to Internal System
+	- Set Table Key to "Key"
 	- Create Inter-System relation
 		- System A
 			- System: internal
@@ -21,6 +22,7 @@ This is an NIM App that provides the ability to manage flags for overriding proc
 
 # Configuration
 A lookup table is required with the following columns
+- Key (auto-guid)
 - ID
 - Type
 - Global
